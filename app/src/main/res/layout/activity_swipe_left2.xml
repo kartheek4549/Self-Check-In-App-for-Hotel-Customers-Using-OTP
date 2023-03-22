@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SwipeLeft2">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Hotel Nagavali "
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:textSize="30dp"
+        android:layout_marginTop="30dp" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_marginTop="-43dp"
+        android:src="@drawable/img_5"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:layout_marginBottom="90dp"
+        android:gravity="center"
+        android:text="check in" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:text="Available Rooms"
+        android:textColor="@color/black"
+        android:layout_marginHorizontal="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="435dp"
+        android:text="Rooms to be booked"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="20dp"
+        android:textColor="@color/black" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="400dp"
+        android:gravity="center"
+        android:text=":   10"
+        android:textColor="#359A35"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.063" />
+
+    <Spinner
+        android:id="@+id/spinner4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480dp"/>
+    <Spinner
+        android:id="@+id/spinner5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="535dp"/>
+
+</RelativeLayout>

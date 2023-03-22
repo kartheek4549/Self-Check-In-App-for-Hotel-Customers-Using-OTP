@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">HotelBookingApp</string>
+    <string-array name="numbers">
+
+        <item>Select Room</item>
+        <item>Room 21</item>
+        <item>Room 43</item>
+        <item>Room 33</item>
+        <item>Room 47</item>
+        <item>Room 53</item>
+        <item>Room 32</item>
+        <item>Room 44</item>
+        <item>Room 66</item>
+        <item>Room 45</item>
+        <item>Room 2</item>
+    </string-array>
+    <string-array name="rooms">
+        <item>Select Room Type</item>
+        <item>Deluxe</item>
+        <item>standard</item>
+        <item>suite</item>
+        <item>normal/Non-AC</item>
+        <item>AC</item>
+    </string-array>
+
+</resources>
